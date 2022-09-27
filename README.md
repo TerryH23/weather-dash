@@ -11,10 +11,10 @@ Weather app that displays the forecast for the current and next 5 days
 - Utilizes the OpenWeather API
 
 ### Preview
-![Preview]()
+![Preview](https://github.com/TerryH23/weather-dash/blob/main/assets/images/preview.png)
 
 ### Webpage
-
+https://terryh23.github.io/weather-dash/
 
 ### Repo
 https://github.com/TerryH23/weather-dash
