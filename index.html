@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    
+    <header class="jumbotron">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="searchResults">
+                <div>
+                    <h4>Search for a City:</h4>
+                </div>
+
+                <div class="input-group col-12">
+                    <div>
+                        <input class="form-control" type="text" id="citySearch"
+                        placeholder="Enter a city name">
+                        <button type="button" class="btn btn-primary w-100 my-3" id="searchBtn">Search</button>
+                    </div>
+                </div>                
+
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="list-group" id="searchHistory">               
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="weather" class="col-9">
+                <div class="row">
+                    <div class="col-12 border b-dark rounded" id="cityWeather">
+                    </div>
+                </div>
+
+                    <div class="col-12 py-3">
+                        <h3>5-Day Forecast:</h3>
+                    </div>
+
+                <div class="row" id="forecast">          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
